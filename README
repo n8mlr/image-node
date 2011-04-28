@@ -1,0 +1,3 @@
+# Image Node
+
+ImageNode is an image processing application used to store images in the cloud. ImageNode stores original versions of uploaded photos in S3 for backup and supports arbitrarily sized photos in the local filesystem.
