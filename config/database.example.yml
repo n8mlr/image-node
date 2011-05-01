@@ -1,0 +1,13 @@
+login: &login
+  username: natemiller
+  password: 
+  host: localhost
+  adapter: mysql
+  
+development:
+  database: imagenode_development
+  <<: *login
+
+test:
+  database: imagenode_test
+  <<: *login
